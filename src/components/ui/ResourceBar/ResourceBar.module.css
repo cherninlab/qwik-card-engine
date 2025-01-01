@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.resource {
+  width: 12px;
+  height: 12px;
+  background: hsl(var(--muted-foreground));
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.resource.active {
+  background: hsl(var(--primary));
+}
+
+.count {
+  margin-left: 4px;
+  font-size: 14px;
+  color: hsl(var(--muted-foreground));
+}

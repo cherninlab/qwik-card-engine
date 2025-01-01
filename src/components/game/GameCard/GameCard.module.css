@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  width: 120px;
+  height: 160px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.interactive {
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.cost {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.power {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.health {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
